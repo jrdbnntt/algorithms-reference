@@ -20,6 +20,8 @@ Can we solve?
 
 
 ## Complexity Classes
+![img](./img/np-completeness-classes.png)
+
 ### P
 `P` is a complexity class that represents the set of all decision problems that can be solved in polynomial time. That is, given an instance of the problem, the answer yes or no can be decided in polynomial time.
 
