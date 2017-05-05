@@ -75,3 +75,7 @@ BFS-Path(flag, s, pred)
                 enqueue(Q,w)
 
 ```
+
+
+## Example
+![img](./img/bfs-example-1.jpg)
