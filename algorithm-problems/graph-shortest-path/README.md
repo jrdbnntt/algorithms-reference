@@ -31,7 +31,7 @@ INIT-SINGLE-SOURCE (G, s)
 
 ## Relaxing an edge (u, v)
 * Can we improve the shortest-path estimate for v by going through u and then taking (u, v?)
-    * Is r -~-> u -> v cheaper than r -~-> v (current est.)?
+    * Is r -..-> u -> v cheaper than r -..-> v (current est.)?
 
 ```
 RELAX(u, v, w):
