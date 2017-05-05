@@ -14,6 +14,7 @@ Minimum Spanning Tree (MST)
 
 ## Example
 ![img](./img/mst-example-1.jpg)
+
 Total Cost = 37
 
 ## Generic Algorithm (Greedy)
