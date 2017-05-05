@@ -23,6 +23,10 @@ Example digraph:
 ```
 
 ### Adjacency Matrix
+* Store adjacencies in V x V matrix
+* Required space = O(|V|*|V|)
+* Check if (vi, vj) is in E? = O(|V|)
+
 ```
   123
  +---
@@ -31,8 +35,12 @@ Example digraph:
 3|110
 ```
 
+Space = O(|V|*|V|)
+
 ### Adjacency List
-Store adjacencies in a Linked List
+* Store adjacencies in a Linked List
+* Required space = O(|V|+|E|)
+* Check if (vi, vj) is in E? = O(1)
 ```
 1 -> [2] -> [3] -> null
 2 -> [3] -> null
