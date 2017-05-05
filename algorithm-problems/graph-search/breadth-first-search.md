@@ -6,6 +6,8 @@ Breadth-First Search (BFS)
 * Basis for many algorithms including spanning trees and single source shortest path
 
 ## BFS Algorithm
+* A good visualization can be found [here](https://www.cs.usfca.edu/~galles/visualization/BFS.html)
+
 ```
 /**
  * BFS Algorithm
