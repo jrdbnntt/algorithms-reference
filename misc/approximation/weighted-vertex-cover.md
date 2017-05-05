@@ -43,12 +43,12 @@ Given the following LP solution, calculate approximate a solution, a-priori & a-
 **LP:**
 
 | v | x | w(v) |
-|--- |
-| 1 | 0.1 | 1
-| 2 | 0.9 | 4
-| 3 | 0.5 | 3
-| 4 | 0.6 | 10
-| 5 | 0.1 | 4
+| --- | --- | --- |
+| 1 | 0.1 | 1 |
+| 2 | 0.9 | 4 |
+| 3 | 0.5 | 3 |
+| 4 | 0.6 | 10 |
+| 5 | 0.1 | 4 |
 
 ### Solution
 Convert to ILP via rounding
@@ -57,11 +57,11 @@ Convert to ILP via rounding
 
 | v | x |
 |--- | --- |
-| 1 | 0
-| 2 | 1
-| 3 | 1
-| 4 | 1
-| 5 | 0
+| 1 | 0 |
+| 2 | 1 |
+| 3 | 1 |
+| 4 | 1 |
+| 5 | 0 |
 
 * `Approx = 1*0 + 4*1 + 3*1 + 10*1 + 4*0 = 21`
 * `21 <= 2 OPT_ILP` (a-priori)
